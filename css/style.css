@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #e5e5e5;
-  --team-bg-color: #f5f4fa;
+  --secondary-bg-color: #f5f4fa;
   --primary-white-color: #ffffff;
   --hero-footer-bg-color: #2f303a;
   --text-color: #757575;
@@ -117,7 +117,7 @@ header {
 
 /* TEAM SECTION */
 .team-section {
-  background-color: var(--team-bg-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .name-title {
@@ -146,6 +146,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .footer-contact {
   font-size: 14px;
   line-height: 1.71;
@@ -154,3 +155,35 @@ address {
 }
 
 /* PORTFOLIO PAGE */
+
+.radio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+.radio-button:focus,
+.radio-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* PROJECTS */
+
+.projects-list a {
+  text-decoration: none;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-item {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--text-color);
+}
