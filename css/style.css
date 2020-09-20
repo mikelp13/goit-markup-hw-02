@@ -27,7 +27,8 @@ h5,
 h6 {
   color: var(--title-text-color);
 }
-/* Header */
+
+/* NAVIGATION */
 header {
   background-color: var(--header-bg-color);
 }
@@ -44,6 +45,26 @@ header {
 
 .logo {
   color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+
+.link:focus,
+.link:hover {
+  color: var(--accent-color);
+}
+
+/* CONTACTS */
+.contacts a {
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 /* Footer */
