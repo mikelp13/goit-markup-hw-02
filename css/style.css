@@ -163,6 +163,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
+  border: 0;
 }
 .radio-button:focus,
 .radio-button:hover {
